@@ -1,0 +1,113 @@
+*{margin: 0;
+    padding: 0;
+}
+:root{
+    --navbar-height:56px;
+}
+
+#navbar{
+    display: flex;
+    position: relative;
+    flex-wrap: nowrap;
+    
+
+}
+#navbar::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.99;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: right;
+    width: 40%;
+
+    
+    
+}
+#navbar ul li{
+    
+    padding: 7px; 
+    font-size: 1.2em;
+    
+    font-weight: bold;
+    
+
+}
+#navbar ul li a:hover{
+    justify-content: space-evenly;
+    background-color: white;
+    color: black;
+    border-radius: 6px ;
+}
+#navbar ul li a{
+    text-decoration: none;
+    
+    padding: 8px;
+    color: white;
+}
+.logo{
+display: flex;
+align-items: center;
+width: 20px;
+padding: 5px;
+
+   
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 350px;
+    align-items: center;
+    justify-items: center;
+
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url(brooke-lark-wMzx2nBdeng-unsplash.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 500px;
+    z-index: -1;
+    opacity: 0.89;
+    margin-top: -120px;
+}
+.btn:hover{
+    
+   
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+}
+.btn{
+    
+    text-align: center;
+    font-weight: 700;
+    width: 110px;
+    height: 50px;
+    border-radius:8px; 
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    margin-top: 10px;
+}
+#home h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+    color: black;
+    margin-top: 10px;
+    text-shadow: black 6px 6px 38px;
+}
+}
+#home p{
+    font-family: 'Pacifico', cursive;
+    font-size: 18px;
+    color: black;
+
+}
