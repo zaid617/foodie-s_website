@@ -46,10 +46,12 @@
     text-decoration: none;
     border-radius: 6px ;
      padding: 8px;
+     transform:none;
 }
 #navbar ul li a:hover{
     background-color:black;
    color: white;
+   transition: 0.7s;
 }
 #navbar ul li a:active{
     text-decoration: underline;
