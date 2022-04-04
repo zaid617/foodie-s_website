@@ -40,15 +40,14 @@
     
 
 }
-#navbar ul li a:hover{
+#navbar ul li a{
     justify-content: space-evenly;
-    background-color: white;
     color: black;
     border-radius: 6px ;
 }
-#navbar ul li a{
+#navbar ul li a:hover{
     text-decoration: none;
-    
+    background-color:black;
     padding: 8px;
     color: white;
 }
