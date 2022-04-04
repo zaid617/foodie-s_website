@@ -43,12 +43,15 @@
 #navbar ul li a{
     justify-content: space-evenly;
     color: black;
+    text-decoration: none;
+    transition: transform .2s;
     border-radius: 6px ;
+     padding: 8px;
 }
 #navbar ul li a:hover{
-    text-decoration: none;
+    
     background-color:black;
-    padding: 8px;
+   transform: scale(1.5);
     color: white;
 }
 .logo{
