@@ -196,3 +196,55 @@ width: 2px;
     height: 500px;
     
 }
+.form{
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 850px;
+    border: 6px solid black;
+
+}
+.form input{
+    text-align: center;
+    width: 350px;
+    height: 25px;
+    display: inline;
+
+}
+.form label{
+    display: inline;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    height: 550px;
+    margin-top: -30px;
+    width: 100%;
+    z-index: -1;
+    opacity: .89;
+    background: url(jeshoots-com-pUAM5hPaCRI-unsplash.jpg);
+}
+.btn2:hover{
+    
+   
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transform: scale3d(2, 0.5);
+    
+}
+.btn2{
+    
+    text-align: center;
+    width: 80px;
+    height: 60px;
+    border-radius:8px; 
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    cursor: pointer;
+    transition: 0.7s;
+}
