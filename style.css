@@ -25,8 +25,8 @@
     display: flex;
     align-items: center;
     list-style: none;
-    justify-content: right;
-    width: 40%;
+    justify-content: left;
+    width: 100%;
 
     
     
@@ -41,7 +41,7 @@
 
 }
 #navbar ul li a{
-    justify-content: space-evenly;
+    justify-content: left;
     color: black;
     text-decoration: none;
     border-radius: 6px ;
@@ -61,7 +61,7 @@
 display: flex;
 align-items: center;
 padding: 5px;
-width: 2px;
+width: 150px;
 
 
    
@@ -230,7 +230,7 @@ width: 2px;
     width: 100%;
     z-index: -1;
     opacity: .89;
-    background: url(jeshoots-com-pUAM5hPaCRI-unsplash.jpg);
+    background: url(jeshoots-com-pUAM5hPaCRI-unsplash.jpg) no-repeat center/cover;
 }
 .btn2:hover{
     
