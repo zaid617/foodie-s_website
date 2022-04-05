@@ -105,7 +105,7 @@ width: 2px;
     border: 3px solid white;
     margin-top: 10px;
     cursor: pointer;
-    transition: 0.7s;
+    transition: 1.2s;
 }
 .btn :active{
     
@@ -207,7 +207,7 @@ width: 2px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 360px;
     width: 850px;
     border: 6px solid black;
 
