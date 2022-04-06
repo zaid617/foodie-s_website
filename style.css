@@ -132,6 +132,7 @@ width: 150px;
     line-height: 22px;
     text-align: justify;
     color: black;
+    transform: capitalize;
     
 }
 #services{
@@ -171,6 +172,7 @@ width: 150px;
     margin-top: 8px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 25px;
+    transform: capitalize;
     
 }
 .box img {
@@ -189,7 +191,7 @@ width: 150px;
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s ease-in-out;
-    content: attr(height="100px");
+    
 
 }
 #contact h2{
