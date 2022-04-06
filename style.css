@@ -169,7 +169,7 @@ width: 150px;
     padding: 3px 10px;
     text-align: justify;
     margin-top: 8px;
-    font-family: myfont;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 25px;
     
 }
@@ -186,7 +186,7 @@ width: 150px;
     
     border: 12px solid;
     border-radius: 10px;
-    font-weight: bolder;
+    font-weight: bold;
     cursor: pointer;
     transition: 0.3s ease-in-out;
     content: attr(height="100px");
