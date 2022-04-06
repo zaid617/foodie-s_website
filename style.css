@@ -4,6 +4,10 @@
 :root{
     --navbar-height:56px;
 }
+@font-face {
+    font-family: myfont;
+    src: url(DancingScript-VariableFont_wght.ttf);
+}
 
 #navbar{
     display: flex;
@@ -123,8 +127,8 @@ width: 150px;
 }
 
 #home p{
-    font-family: 'Pacifico', cursive;
-    font-size: 15px;
+    font-family: myfont;
+    font-size: 20px;
     line-height: 22px;
     text-align: justify;
     color: black;
@@ -165,6 +169,8 @@ width: 150px;
     padding: 3px 10px;
     text-align: justify;
     margin-top: 8px;
+    font-family: myfont;
+    font-size: 25px;
     
 }
 .box img {
@@ -183,6 +189,7 @@ width: 150px;
     font-weight: bolder;
     cursor: pointer;
     transition: 0.3s ease-in-out;
+    content: attr(height="100px");
 
 }
 #contact h2{
