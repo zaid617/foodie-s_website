@@ -173,6 +173,7 @@ width: 150px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 23px;
     transform: capitalize;
+    font-weight: 300;
     
 }
 .box img {
