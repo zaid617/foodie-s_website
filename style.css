@@ -129,10 +129,12 @@ width: 150px;
 #home p{
     font-family: myfont;
     font-size: 20px;
+    max-height: 150px;
     line-height: 22px;
     text-align: justify;
     color: black;
     transform: capitalize;
+    overflow: hidden;
     
 }
 #services{
@@ -141,6 +143,7 @@ width: 150px;
     flex-direction: column;
     align-items: center;
     height: 500px;
+    margin-top: 180px;
     
 }
 
@@ -163,17 +166,17 @@ width: 150px;
     justify-content: space-evenly;
     height: 350px;
     width: 30%;
-    border: 3px solid black;
     border-radius: 15px;
     background-color: #edcece;
     align-items: center;
     padding: 3px 10px;
     text-align: justify;
     margin-top: 8px;
-    font-family: 'Arial Narrow Bold', sans-serif;
-    font-size: 23px;
+    font-family: myfont;
+    font-size: 18px;
     transform: capitalize;
     font-weight: 300;
+    
     
 }
 .box img {
@@ -187,11 +190,10 @@ width: 150px;
 }
 .box:hover{
     
-    border: 12px solid;
-    border-radius: 10px;
-    font-weight: bold;
+    transition: 0.2s ease-in-out;
+    font-weight: 300;
     cursor: pointer;
-    transition: 0.3s ease-in-out;
+    box-shadow: 0px 0px 28px 3px black;
     
 
 }
@@ -293,4 +295,30 @@ th{
     font-size: 25px;
     text-decoration: underline;
 
+}
+#menu::before{
+    content: "";
+    background: url(digital-restaurant-menu-horizontal-format_23-2148655475.webp) no-repeat center/cover;
+    position: absolute;
+    height: 550px;
+    margin-top: -10px;
+    width: 100%;
+    z-index: -1;
+    opacity: .7;
+
+}
+menu{
+    display: flex;
+    align-items: center;
+}
+#menu h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px;
+    margin-top: 58px;
+    padding-top: 206px;
+    text-shadow: black 0px 0px 16px;
+    text-transform: uppercase;
+    text-decoration:underline ;
+    color: white;
 }
