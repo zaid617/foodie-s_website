@@ -179,6 +179,9 @@ width: 150px;
     
     
 }
+.box .para{
+    display: none;
+}
 .box img {
     display: flex;
     align-items: center;
@@ -287,8 +290,8 @@ width: 150px;
 .btn3{
     
     text-align: center;
-    width: 114px;
-    height: 50px;
+    width: 140px;
+    height: 60px;
     border-radius:10px; 
     background-color: black;
     color: white;

@@ -28,7 +28,7 @@
         <br>
         <p id="par">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem qui ipsa optio fugiat facilis nesciunt, excepturi quis non cum minus sint eius enim praesentium nemo eos? Provident enim officiis aperiam obcaecati magni soluta, voluptas porro voluptate totam laudantium nihil suscipit nesciunt repudiandae blanditiis molestias adipisci aspernatur dicta iste, harum magnam a. Illo, accusantium.</p>
         <br>
-        <button class="btn" id="bon" onclick="hide()">Order Now</button>
+        <button class="btn" >Order Now</button>
     </section>
     <br><br><br><br><br>
     
@@ -41,9 +41,9 @@
         <h2>Our Services</h2>
         <br>
         <div class="container">
-            <span class="box"><img src="https://see.fontimg.com/api/renderfont4/w1Pdw/eyJyIjoiZnMiLCJoIjo1NCwidyI6MTAwMCwiZnMiOjU0LCJmZ2MiOiIjQkQxQzFDIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/Zm9vZCBvcmRlcmluZw/mishella.png"></img><p class="para" id="par">Lorem ipsum dolor,lo Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum fuga enim ullam nisi laudantium voluptatibus, accusantium  sit amet consectetur adipisicing elit. Consectetur, atque!</p><button class="btn3">Learn More</button></span>
-            <span class="box"><img src="https://see.fontimg.com/api/renderfont4/w1Pdw/eyJyIjoiZnMiLCJoIjo1NCwidyI6MTAwMCwiZnMiOjU0LCJmZ2MiOiIjQkQxQzFDIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/YnVsayBvcmRlcmluZw/mishella.png"></img><p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consecteturlo Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum fuga enim ullam nisi laudantium voluptatibus, accusantium , atque!</p><button class="btn3" >Learn More</button></span>
-            <span class="box"><img src="https://see.fontimg.com/api/renderfont4/w1Pdw/eyJyIjoiZnMiLCJoIjo1NCwidyI6MTAwMCwiZnMiOjU0LCJmZ2MiOiIjQkQxQzFDIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/Zm9vZCBjYXRlcmluZw/mishella.png"></img><p class="para">Lorem ipsum dolor,lo Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum fuga enim ullam nisi laudantium voluptatibus, accusantium  sit amet consectetur adipisicing elit. Consectetur, atque!</p><button class="btn3" >Learn More</button></span>
+            <span class="box" id="para"><img src="https://see.fontimg.com/api/renderfont4/w1Pdw/eyJyIjoiZnMiLCJoIjo1NCwidyI6MTAwMCwiZnMiOjU0LCJmZ2MiOiIjQkQxQzFDIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/Zm9vZCBvcmRlcmluZw/mishella.png"></img><p class="para" id="paragraph">Lorem ipsum dolor,lo Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum fuga enim ullam nisi laudantium voluptatibus, accusantium  sit  lore Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, magnam omnis porro, quam facilis voluptates nobis unde eius blanditiis ea culpa maxime corrupti est dicta similique et excepturi recusandae aut inventore? Iure! amet consectetur adipisicing elit. Consectetur, atque!</p><button class="btn3" id="button" onclick="hide()">Learn More</button></span>
+            <span class="box"><img src="https://see.fontimg.com/api/renderfont4/w1Pdw/eyJyIjoiZnMiLCJoIjo1NCwidyI6MTAwMCwiZnMiOjU0LCJmZ2MiOiIjQkQxQzFDIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/YnVsayBvcmRlcmluZw/mishella.png"></img><p class="para" id="paragraph1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consecteturlo Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum fuga enim ullam nisi laudantium voluptatibus, accusantium lore Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, magnam omnis porro, quam facilis voluptates nobis unde eius blanditiis ea culpa maxime corrupti est dicta similique et excepturi recusandae aut inventore? Iure!  , atque!</p><button class="btn3" id="button1" onclick="hide1()">Learn More</button></span>
+            <span class="box"><img src="https://see.fontimg.com/api/renderfont4/w1Pdw/eyJyIjoiZnMiLCJoIjo1NCwidyI6MTAwMCwiZnMiOjU0LCJmZ2MiOiIjQkQxQzFDIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/Zm9vZCBjYXRlcmluZw/mishella.png"></img><p id="paragraph2" class="para">Lorem ipsum dolor,lo Lorem ipsum lore Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, magnam omnis porro, quam facilis voluptates nobis unde eius blanditiis ea culpa maxime corrupti est dicta similique et excepturi recusandae aut inventore? Iure!  dolor sit amet consectetur adipisicing elit. Illum fuga enim ullam nisi laudantium voluptatibus, accusantium  sit amet consectetur adipisicing elit. Consectetur, atque!</p><button class="btn3" id="button2" onclick="hide2()" >Learn More</button></span>
         </div>
 
     </section>
@@ -115,5 +115,37 @@
         </span>
         
     </footer>
+    <script>
+        function hide() {
+            let paragraph = document.getElementById('paragraph')
+        let button = document.getElementById('button')
+        if (paragraph.style.display!='none') {
+            paragraph.style.display='none';}
+        else
+            {
+                paragraph.style.display='block';
+            }
+        
+        }function hide1() {
+            let paragraph1 = document.getElementById('paragraph1')
+        let button1 = document.getElementById('button1')
+        if (paragraph1.style.display!='none') {
+            paragraph1.style.display='none';}
+        else
+            {
+                paragraph1.style.display='block';
+            }
+        }function hide2() {
+            let paragraph2 = document.getElementById('paragraph2')
+        let button2 = document.getElementById('button2')
+        if (paragraph2.style.display!='none') {
+            paragraph2.style.display='none';}
+        else
+            {
+                paragraph2.style.display='block';
+            }
+        }
+        
+    </script>
 </body>
 </html>
