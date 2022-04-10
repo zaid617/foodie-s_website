@@ -167,10 +167,10 @@ width: 150px;
     height: 350px;
     width: 30%;
     border-radius: 15px;
-    background-color: #edcece;
+    background-color: #e4e2e2;
     align-items: center;
     padding: 3px 10px;
-    text-align: justify;
+    text-align: center;
     margin-top: 8px;
     font-family: myfont;
     font-size: 18px;
@@ -181,6 +181,7 @@ width: 150px;
 }
 .box .para{
     display: none;
+    padding: 10px;
 }
 .box img {
     display: flex;
@@ -196,7 +197,8 @@ width: 150px;
     transition: 0.2s ease-in-out;
     font-weight: 300;
     cursor: pointer;
-    box-shadow: 0px 0px 28px 3px black;
+    box-shadow: 0px 0px 35px 3px black;
+    
     
 
 }
