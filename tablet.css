@@ -1,0 +1,76 @@
+table{
+    color: white;
+    border-collapse: separate;
+    border-spacing: 20px 5px;
+    display: inline;
+    font-size: 8px;
+
+   
+}
+th{
+    font-size: 12px;
+}
+
+#home::before{
+    width: 100%;
+    left: 0;
+}
+#home p{
+    width: 400px;
+    font-size: 14px;
+}
+#home h1{
+    width: 400px;
+    font-size: 30px;
+}
+#navbar{
+    justify-content: center;
+    font-size: 12px;
+}
+#home{
+    padding:50px 0px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    width: 100px;
+}
+.logo img{
+    width: 100%;
+}
+.box{
+    width: 370px;
+}
+#contact{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 200px;
+}
+.form input{
+    text-align: center;
+    width: 180px;
+    height: 23px;
+    display: inline;
+    
+
+}
+textarea{
+    columns: 5;
+    
+
+}
+#btn2{
+    width: 71px;
+    height: 32px;
+}
+.btn3{
+    width: 110px;
+    height: 43px;
+}
+#navbar ul li a {
+    padding: 2px;
+}

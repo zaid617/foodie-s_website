@@ -124,12 +124,14 @@ width: 150px;
     color: black;
     margin-top: 10px;
     text-shadow: black 6px 6px 38px;
+    text-align: center;
+    width: 100%;
 }
 
 #home p{
     font-family: myfont;
     font-size: 20px;
-    max-height: 150px;
+    height: 150px;
     line-height: 22px;
     text-align: justify;
     color: black;
