@@ -26,12 +26,7 @@ table{
 
    
 }
-#home::before{
-    height: 550px;
-}
-#home p{
-    width: 600px;
-}
+
 #home h1{
     width: 400px;
     font-size: 40px;
