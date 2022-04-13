@@ -73,7 +73,7 @@ width: 150px;
 #home{
     display: flex;
     flex-direction: column;
-    padding: 40px 350px;
+    padding: 40px 100px;
     align-items: center;
     justify-items: center;
 
@@ -83,7 +83,7 @@ width: 150px;
     position: absolute;
     background: url(brooke-lark-wMzx2nBdeng-unsplash.jpg) no-repeat center/cover;
     width: 100%;
-    height: 500px;
+    height: 570px;
     z-index: -1;
     opacity: 0.92;
     margin-top: -120px;
